@@ -72,3 +72,21 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 - `void Awake()`: É uma função do Unity chamada quando o script é carregado. Aqui, a posição inicial do objeto é armazenada e o deslocamento é aplicado à posição inicial.
 - `void Update()`: É uma função do Unity chamada uma vez por frame. Aqui, o objeto é movido para frente e para trás ao longo do eixo x (se `horizontal` for verdadeiro) ou z (se `horizontal` for falso) entre sua posição inicial e sua posição inicial mais a distância definida.
 </p>
+
+<h1>Código da Câmera</h1>
+<img src="imgs/camera.png">
+<p>
+ 
+
+
+- `public class CameraManager  : MonoBehaviour`: Esta linha define uma nova classe chamada `CameraManager` que herda de `MonoBehaviour`, que é a classe base de onde todos os scripts Unity derivam.
+- `public float followSpeed = 3;`: Define a velocidade com que a câmera segue o jogador.
+- `public float mouseSpeed = 2;`: Define a velocidade com que a câmera gira quando o mouse é movido.
+- `public float cameraDist = 3;`: Define a distância entre a câmera e o jogador.
+- `public Transform target;`: Armazena a referência ao jogador que a câmera deve seguir.
+- `public void Init()`: É uma função personalizada chamada para inicializar as referências para a câmera e o pivô.
+- `void FollowTarget(float d)`: É uma função que faz a câmera seguir o jogador.
+- `void HandleRotations(float d, float v, float h, float targetSpeed)`: É uma função que lida com as rotações da câmera com base na entrada do mouse.
+- `private void FixedUpdate()`: É uma função do Unity chamada antes de cada atualização de física. Aqui, a entrada do mouse é lida e as funções `FollowTarget` e `HandleRotations` são chamadas para mover e girar a câmera, respectivamente.
+- `private void LateUpdate()`: É uma função do Unity chamada após todas as funções de atualização terem sido chamadas. Aqui, um raio é lançado da posição do pivô para a posição da câmera para verificar se há algum obstáculo (como uma parede) entre eles. Se houver, a distância da câmera ao pivô é ajustada para evitar que o obstáculo obstrua a visão do jogador.
+</p>
