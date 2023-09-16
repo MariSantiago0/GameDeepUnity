@@ -1,7 +1,8 @@
 # GameDeepUnity
 <img src="imgs/chegada.png">
-<h1>Códigos do Jogador</h1>
 <img src="imgs/meio.png">
+<h1>Códigos do Jogador</h1>
+<img src="imgs/jogador.png">
 <h2> Movimentação</h2>
 <p>
 <strong>Este é um script de controle do jogador para um jogo em 3D usando o motor Unity. Aqui está uma explicação básica de algumas partes do código:</strong>
@@ -43,6 +44,7 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 <img src="imgs/movel.png">
 <h2>Código da Parede móvel (WallMoveable)</h2>
 <img src="imgs/paredeobs.png">
+<img src="imgs/wallmoveable.png">
 <p>
   
 - `public bool isDown = true;` : Esta variável determina se a parede começa em uma posição baixa. Se a parede não começar em uma posição baixa, você deve modificar para false.
@@ -57,6 +59,7 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 
 <h2>Código do Obstáculo móvel (MoveableWall) </h2>
 <img src="imgs/movelobs.png">
+<img src="imgs/moveablewall.png">
 <p>
   
 - `public class MovableObs : MonoBehaviour`: Esta linha define uma nova classe chamada `MovableObs` que herda de `MonoBehaviour`, que é a classe base de onde todos os scripts Unity derivam.
