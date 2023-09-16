@@ -1,6 +1,7 @@
 # GameDeepUnity
-
+<img src="imgs/chegada.png">
 <h1>Códigos do Jogador</h1>
+<img src="imgs/meio.png">
 <h2> Movimentação</h2>
 <p>
 <strong>Este é um script de controle do jogador para um jogo em 3D usando o motor Unity. Aqui está uma explicação básica de algumas partes do código:</strong>
@@ -38,6 +39,8 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 </p>
 
 <h1>Código dos Obstáculos</h1>
+<img src="imgs/meio2.png">
+<img src="imgs/movel.png">
 <h2>Código da Parede móvel (WallMoveable)</h2>
 <p>
   
@@ -51,7 +54,7 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 - `IEnumerator Retry(float time)` : Esta função verifica periodicamente se a parede pode começar a se mover para baixo. A verificação ocorre a cada 1,25 segundos.
 </p>
 
-<h2>Código do Obstáculo móvel </h2>
+<h2>Código do Obstáculo móvel (MoveableWall) </h2>
 <p>
   
 - `public class MovableObs : MonoBehaviour`: Esta linha define uma nova classe chamada `MovableObs` que herda de `MonoBehaviour`, que é a classe base de onde todos os scripts Unity derivam.
