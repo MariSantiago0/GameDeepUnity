@@ -42,6 +42,7 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 <img src="imgs/meio2.png">
 <img src="imgs/movel.png">
 <h2>Código da Parede móvel (WallMoveable)</h2>
+<img src="imgs/paredeobs.png">
 <p>
   
 - `public bool isDown = true;` : Esta variável determina se a parede começa em uma posição baixa. Se a parede não começar em uma posição baixa, você deve modificar para false.
@@ -55,6 +56,7 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 </p>
 
 <h2>Código do Obstáculo móvel (MoveableWall) </h2>
+<img src="imgs/movelobs.png">
 <p>
   
 - `public class MovableObs : MonoBehaviour`: Esta linha define uma nova classe chamada `MovableObs` que herda de `MonoBehaviour`, que é a classe base de onde todos os scripts Unity derivam.
