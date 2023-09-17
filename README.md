@@ -31,7 +31,7 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados:
 - `public GameObject cam;` : Este é o objeto da câmera que segue o personagem.
 - `private Rigidbody rb;` : Este é o corpo rígido do personagem, usado para aplicar forças físicas.
 
-<br>
+<br><br><br>
 
 O método `Start()` é chamado no início do jogo. Ele obtém a distância até o chão.<br>
 O método `IsGrounded()` verifica se o personagem está no chão.<br>
@@ -70,7 +70,7 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 - `public bool isDown = true;` : Esta variável determina se a parede começa em uma posição baixa. Se a parede não começar em uma posição baixa, você deve modificar para false.
 - `public bool isRandom = true;` : Esta variável determina se a parede deve se mover para cima e para baixo de maneira aleatória.
 - `public float speed = 2f;` : Esta é a velocidade com que a parede se move.
-<br><br>
+<br><br><br>
 - `void Awake()` : Este método é chamado quando o script é carregado. Ele obtém a altura da parede e a posição inicial da parede.
 - `void Update()` : Este método é chamado uma vez por quadro (frame). Ele controla o movimento da parede. Se a parede estiver em uma posição baixa, ela se moverá para cima. Se a parede estiver em uma posição alta, ela se moverá para baixo.
 - `IEnumerator WaitToChange(float time)` : Esta função faz com que a parede espere por um certo tempo antes de mudar de direção. Se a variável `isRandom` for verdadeira e a parede estiver em uma posição alta, a função pode decidir aleatoriamente se a parede deve começar a se mover para baixo ou não.
@@ -92,7 +92,7 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 - `public float offset = 0f;`: Permite modificar a posição inicial do objeto.
 - `private bool isForward = true;`: Define se o movimento é para fora.
 - `private Vector3 startPos;`: Armazena a posição inicial do objeto.
-<br><br>
+<br><br><br>
 - `void Awake()`: É uma função do Unity chamada quando o script é carregado. Aqui, a posição inicial do objeto é armazenada e o deslocamento é aplicado à posição inicial.
 - `void Update()`: É uma função do Unity chamada uma vez por frame. Aqui, o objeto é movido para frente e para trás ao longo do eixo x (se `horizontal` for verdadeiro) ou z (se `horizontal` for falso) entre sua posição inicial e sua posição inicial mais a distância definida.
 </p>
@@ -109,7 +109,7 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 - `public float mouseSpeed = 2;`: Define a velocidade com que a câmera gira quando o mouse é movido.
 - `public float cameraDist = 3;`: Define a distância entre a câmera e o jogador.
 - `public Transform target;`: Armazena a referência ao jogador que a câmera deve seguir.
-  <br><br>
+  <br><br><br>
 - `public void Init()`: É uma função personalizada chamada para inicializar as referências para a câmera e o pivô.
 - `void FollowTarget(float d)`: É uma função que faz a câmera seguir o jogador.
 - `void HandleRotations(float d, float v, float h, float targetSpeed)`: É uma função que lida com as rotações da câmera com base na entrada do mouse.
