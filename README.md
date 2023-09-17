@@ -10,15 +10,32 @@
 Antes de começar, certifique-se de ter os seguintes requisitos instalados:
 
 - Unity versão 2022.2.16f1 ou superior
- 
 </p>
+
+## Instalação
+
+Siga as etapas abaixo para executar o jogo em sua máquina local:
+
+1. Baixe os arquivos do jogo a partir [deste link](https://drive.google.com/drive/folders/1UgtBISJhhGo537nAaBooCTNqZLWwNCIj?usp=sharing).
+2. Abra o projeto Unity utilizando a versão especificada nos requisitos.
+3. Explore os arquivos do jogo para entender a estrutura e os ativos utilizados.
+
+## Como Jogar
+
+Siga as instruções abaixo para jogar o jogo:
+
+1. Execute o jogo no Unity para começar a jogar.
+2. Utilize as teclas de seta ou as teclas WASD para controlar o movimento do carro.
+3. Desvie dos obstáculos e tente alcançar a linha de chegada sem perder suas vidas.
+4. Aproveite a experiência de corrida emocionante!
+
 
 <br>
 <h1>Códigos do Jogador</h1>
 <img src="imgs/jogador.png">
 <h2> Movimentação</h2>
 <p>
-<strong>Este é um script de controle do jogador para um jogo em 3D usando o motor Unity. Aqui está uma explicação básica de algumas partes do código:</strong>
+<strong>Este é um script de controle do jogador para um jogo em 3D usando o motor Unity. Aqui está uma explicação básica de algumas partes do código:</strong><br>
 
 - `public float speed = 10.0f;` : Esta é a velocidade de movimento do personagem.
 - `public float airVelocity = 8f;` : Esta é a velocidade do personagem enquanto ele está no ar.
@@ -45,7 +62,7 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 <h2>Perder vida ao colidir</h2>
 <p>
  <strong>Este é um script de controle de vida do jogador caso o jogador colida com um obstáculo. Aqui está uma explicação básica de algumas partes do código:</strong> 
-<br>
+<br><br>
  
 - `public int vidas = 3;` : Este é o número inicial de vidas do personagem.
 - `void OnCollisionEnter(Collision collision)` : Este método é chamado quando o personagem colide com outro objeto. O objeto com o qual o personagem colidiu é passado como um parâmetro.
