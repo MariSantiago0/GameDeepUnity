@@ -1,11 +1,17 @@
 # GameDeepUnity
+[![Unity](https://img.shields.io/badge/Unity-2022.2.16f1-blue)](https://unity3d.com/get-unity/download/archive)
 
 <img src="imgs/chegada.png">
 <img src="imgs/meio.png">
-<h1>Requisitos</h1>
+<h3>O jogo consiste em o jogador desviar dos obstáculos sem encostar, mas se encostar uma vida das suas 3 vidas é perdida.</h3><br>
+
+<h2>Requisitos</h2>
+<p>
 Antes de começar, certifique-se de ter os seguintes requisitos instalados:
 
 - Unity versão 2022.2.16f1 ou superior
+ 
+</p>
 
 <br>
 <h1>Códigos do Jogador</h1>
@@ -32,6 +38,8 @@ O método `FixedUpdate()` é chamado a cada quadro fixo (frame). Ele controla o 
 O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs do usuário para mover o personagem.<br>
 </p>
 
+<br>
+
 <h2>Perder vida ao colidir</h2>
 <p>
  <strong>Este é um script de controle de vida do jogador caso o jogador colida com um obstáculo. Aqui está uma explicação básica de algumas partes do código:</strong> 
@@ -45,6 +53,8 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 - `Debug.Log("Game Over!");` : Esta linha imprime uma mensagem no console do Unity informando que o jogo acabou.
 - `#if UNITY_EDITOR UnityEditor.EditorApplication.isPlaying = false; #else Application.Quit(); #endif` : Este bloco de código termina o jogo. Se o jogo estiver sendo executado no editor Unity, ele irá parar a reprodução. Se o jogo estiver sendo executado fora do editor, ele irá fechar a aplicação.
 </p>
+
+<br>
 
 <h1>Código dos Obstáculos</h1>
 <img src="imgs/meio2.png">
@@ -64,6 +74,8 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 - `IEnumerator Retry(float time)` : Esta função verifica periodicamente se a parede pode começar a se mover para baixo. A verificação ocorre a cada 1,25 segundos.
 </p>
 
+<br>
+
 <h2>Código do Obstáculo móvel (MoveableWall) </h2>
 <img src="imgs/movelobs.png">
 <img src="imgs/moveablewall.png">
@@ -80,11 +92,11 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 - `void Update()`: É uma função do Unity chamada uma vez por frame. Aqui, o objeto é movido para frente e para trás ao longo do eixo x (se `horizontal` for verdadeiro) ou z (se `horizontal` for falso) entre sua posição inicial e sua posição inicial mais a distância definida.
 </p>
 
+<br>
+
 <h1>Código da Câmera</h1>
 <img src="imgs/camera.png">
 <p>
- 
-
 
 - `public class CameraManager  : MonoBehaviour`: Esta linha define uma nova classe chamada `CameraManager` que herda de `MonoBehaviour`, que é a classe base de onde todos os scripts Unity derivam.
 - `public float followSpeed = 3;`: Define a velocidade com que a câmera segue o jogador.
