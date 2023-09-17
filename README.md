@@ -27,7 +27,7 @@ Siga as instruções abaixo para jogar o jogo:
 1. Execute o jogo no Unity para começar a jogar.
 2. Utilize as teclas de seta ou as teclas WASD para controlar o movimento do carro.
 3. Desvie dos obstáculos e tente alcançar a linha de chegada sem perder suas vidas.
-4. Aproveite a experiência de corrida emocionante!
+
 
 
 <br>
