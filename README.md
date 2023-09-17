@@ -1,6 +1,13 @@
 # GameDeepUnity
+
 <img src="imgs/chegada.png">
 <img src="imgs/meio.png">
+<h1>Requisitos</h1>
+Antes de começar, certifique-se de ter os seguintes requisitos instalados:
+
+- Unity versão 2022.2.16f1 ou superior
+
+<br>
 <h1>Códigos do Jogador</h1>
 <img src="imgs/jogador.png">
 <h2> Movimentação</h2>
@@ -90,3 +97,5 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 - `private void FixedUpdate()`: É uma função do Unity chamada antes de cada atualização de física. Aqui, a entrada do mouse é lida e as funções `FollowTarget` e `HandleRotations` são chamadas para mover e girar a câmera, respectivamente.
 - `private void LateUpdate()`: É uma função do Unity chamada após todas as funções de atualização terem sido chamadas. Aqui, um raio é lançado da posição do pivô para a posição da câmera para verificar se há algum obstáculo (como uma parede) entre eles. Se houver, a distância da câmera ao pivô é ajustada para evitar que o obstáculo obstrua a visão do jogador.
 </p>
+
+
