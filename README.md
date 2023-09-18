@@ -31,7 +31,7 @@
 
 <h2>Visão Geral</h2>
 <img src="imgs/meio.png">
-<h3>O jogo consiste em o jogador desviar dos obstáculos sem encostar, mas se encostar uma vida das suas 3 vidas é perdida. Cada vez que muda as cores dos obstáculos, a velocidade deles vai diminuindo. Nosso jogo reflete como pode ser difícil no começo, mas tudo vai ficando mais fácil se você se mostrar consistente e disciplinado.</h3>
+<h3>O jogo consiste em o jogador desviar dos obstáculos sem encostar; no entanto, se encostar, uma vida das suas 3 vidas é perdida. Cada vez que as cores dos obstáculos mudam, a velocidade deles diminui. Nosso jogo reflete o quão difícil pode ser no começo, mas tudo fica mais fácil se você se mostrar consistente e disciplinado.</h3>
 
 <br><br>
 
@@ -171,9 +171,25 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 
 <br><br>
 
-<H1> Código de troca de Cena no Unity </H1>
-
-```csharp
+<h1> Código de troca de Cena no Unity </h1>
+<h3>Quando o jogador encerrar o nível ele precisa encostar em um cubo vermelho, no qual vai levar ele para o próximo nível.</h3>
+<br>
+<h2>Etapas para Trocar de Cena</h2>
+<ul>
+ <li>
+  Ir em "File" e clicar em "Build Settings";
+ </li>
+ <li>
+   Na janela Build Settings, clique em "Add Open Scenes" para adicionar as cenas que deseja incluir em sua compilação;
+ </li>
+ <li>
+   É recomendável criar um script para lidar com a troca de cena. Você pode fazer isso selecionando "Assets" > "Create" > "C# Script" e dando um nome ao seu script, como "SceneManager" ou algo similar;
+ </li>
+ <li>
+  No script, você pode usar o método `SceneManager.LoadScene` para carregar uma nova cena, como essa que utilizei:
+<br>
+  
+  ```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -193,7 +209,15 @@ public class LoadGame : MonoBehaviour
      }
  }
 ```
-<h3>Quando o jogador encerrar o nível ele precisa encostar em um cubo vermelho, no qual vai levar ele para o próximo nível.</h3>
+ </li>
+ <li>
+  Certifique-se de que o código acima está em um objeto na cena (por exemplo, um objeto vazio) ou em um objeto relevante para a troca de cena;
+ </li>
+ <li>
+  Certifique-se de que tudo está funcionando corretamente testando o jogo.
+ </li>
+</ul>
+
 
 <h2>OBS:</h2><h4> O código é feito logicamente por outros programadores, porém reescrito para fins de compreender melhor.</h4>
 
