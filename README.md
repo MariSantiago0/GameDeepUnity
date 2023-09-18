@@ -31,7 +31,9 @@
 
 <h2>Visão Geral</h2>
 <img src="imgs/meio.png">
-<h3>O jogo consiste em o jogador desviar dos obstáculos sem encostar, mas se encostar uma vida das suas 3 vidas é perdida.</h3><br>
+<h3>O jogo consiste em o jogador desviar dos obstáculos sem encostar, mas se encostar uma vida das suas 3 vidas é perdida.</h3>
+
+<br><br>
 
 <h2>Requisitos</h2>
 <p>
@@ -40,13 +42,17 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados:
 - Unity versão 2022.2.16f1 ou superior
 </p>
 
+<br><br>
+
 ## Instalação
 
 Siga as etapas abaixo para executar o jogo em sua máquina local:
 
-1. Baixe os arquivos do jogo a partir [deste link]([https://drive.google.com/file/d/11Gd04MPw-CmIg_SqpgLsaNTvsueFrFv_/view?usp=drive_link](https://drive.google.com/file/d/1chjrV-hBKi7DeC7_l8oeSUsTkz-_tqKW/view?usp=drive_link)).
+1. Baixe os arquivos do jogo a partir [deste link](https://drive.google.com/file/d/1chjrV-hBKi7DeC7_l8oeSUsTkz-_tqKW/view?usp=drive_link).
 2. Abra o projeto Unity utilizando a versão especificada nos requisitos.
 3. Explore os arquivos do jogo para entender a estrutura e os ativos utilizados.
+
+<br><br>
 
 ## Como Jogar
 
@@ -54,13 +60,14 @@ Siga as instruções abaixo para jogar o jogo:
 
 1. Execute o jogo no Unity para começar a jogar.
 2. Utilize as teclas de seta ou as teclas WASD para controlar o movimento do carro.
-3. Desvie dos obstáculos e tente alcançar a linha de chegada sem perder suas vidas.
+3. Desvie dos obstáculos e tente alcançar a linha de chegada da segunda fase sem perder suas vidas.
+
+<br><br>
 
 
-
-<br>
 <h1>Códigos do Jogador</h1>
 <img src="imgs/jogador.png">
+
 <h2> Movimentação</h2>
 <p>
 <strong>Este é um script de controle do jogador para um jogo em 3D usando o motor Unity. Aqui está uma explicação básica de algumas partes do código:</strong><br>
@@ -161,6 +168,8 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 - `private void FixedUpdate()`: É uma função do Unity chamada antes de cada atualização de física. Aqui, a entrada do mouse é lida e as funções `FollowTarget` e `HandleRotations` são chamadas para mover e girar a câmera, respectivamente.
 - `private void LateUpdate()`: É uma função do Unity chamada após todas as funções de atualização terem sido chamadas. Aqui, um raio é lançado da posição do pivô para a posição da câmera para verificar se há algum obstáculo (como uma parede) entre eles. Se houver, a distância da câmera ao pivô é ajustada para evitar que o obstáculo obstrua a visão do jogador.
 </p>
+
+<br><br>
 
 <H1> Código de troca de Cena no Unity </H1>
 
