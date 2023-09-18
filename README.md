@@ -200,7 +200,7 @@ public class LoadGame : MonoBehaviour
      public string ProximaFase;
      void OnTriggerEnter(Collider collider)
      {
-             // ao colidir no objeto com tag "next"
+             // ao colidir no objeto com tag "next" (a tag esta no cubo)
              if(collider.gameObject.tag=="Next")
              {
                      // ir para a segunda fase
