@@ -134,6 +134,27 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 - `private void LateUpdate()`: É uma função do Unity chamada após todas as funções de atualização terem sido chamadas. Aqui, um raio é lançado da posição do pivô para a posição da câmera para verificar se há algum obstáculo (como uma parede) entre eles. Se houver, a distância da câmera ao pivô é ajustada para evitar que o obstáculo obstrua a visão do jogador.
 </p>
 
+<H1> Código de troca de Cena no Unity </H1>
+<p>
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class LoadGame : MonoBehaviour 
+ { 
+     public string ProximaFase;
+     void OnTriggerEnter(Collider collider)
+     {
+             if(collider.gameObject.tag=="Player")
+             {
+                     SceneManager.LoadScene("fase2");
+             }
+     }
+ }
+</p>
+
 <h3> O código é feito pela empresa, porém reescrito para fins educacionais</h3>
 
 
