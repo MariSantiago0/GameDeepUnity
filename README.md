@@ -44,7 +44,7 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados:
 
 Siga as etapas abaixo para executar o jogo em sua máquina local:
 
-1. Baixe os arquivos do jogo a partir [deste link](https://drive.google.com/file/d/11Gd04MPw-CmIg_SqpgLsaNTvsueFrFv_/view?usp=drive_link).
+1. Baixe os arquivos do jogo a partir [deste link]([https://drive.google.com/file/d/11Gd04MPw-CmIg_SqpgLsaNTvsueFrFv_/view?usp=drive_link](https://drive.google.com/file/d/1chjrV-hBKi7DeC7_l8oeSUsTkz-_tqKW/view?usp=drive_link)).
 2. Abra o projeto Unity utilizando a versão especificada nos requisitos.
 3. Explore os arquivos do jogo para entender a estrutura e os ativos utilizados.
 
