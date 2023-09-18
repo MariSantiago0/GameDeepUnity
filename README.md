@@ -31,7 +31,7 @@
 
 <h2>Visão Geral</h2>
 <img src="imgs/meio.png">
-<h3>O jogo consiste em o jogador desviar dos obstáculos sem encostar, mas se encostar uma vida das suas 3 vidas é perdida.</h3>
+<h3>O jogo consiste em o jogador desviar dos obstáculos sem encostar, mas se encostar uma vida das suas 3 vidas é perdida. Cada vez que muda as cores dos obstáculos, a velocidade deles vai diminuindo. Nosso jogo reflete como pode ser difícil no começo, mas tudo vai ficando mais fácil se você se mostrar consistente e disciplinado.</h3>
 
 <br><br>
 
