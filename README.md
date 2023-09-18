@@ -1,7 +1,35 @@
 # GameDeepUnity
 [![Unity](https://img.shields.io/badge/Unity-2022.2.16f1-blue)](https://unity3d.com/get-unity/download/archive)
-
+<br>
 <img src="imgs/chegada.png">
+<h1>Tópicos</h1>
+<ul>
+ <li>
+  Visão Geral
+ <li>
+  Requisitos
+ </li>
+ <li>
+  Instalação
+ </li>
+ <li>
+  Como jogar
+  <li>
+   Códigos
+    <ul>
+     <li>
+      Código do Jogador
+      <li>
+      Código da Camera
+      <li>
+      Código dos Obstáculos
+      <li>
+      Código de troca de cena no Unity
+    </ul>
+ </li>
+</ul>
+
+<h2>Visão Geral</h2>
 <img src="imgs/meio.png">
 <h3>O jogo consiste em o jogador desviar dos obstáculos sem encostar, mas se encostar uma vida das suas 3 vidas é perdida.</h3><br>
 
@@ -156,8 +184,8 @@ public class LoadGame : MonoBehaviour
      }
  }
 ```
-<p>Quando o jogador encerrar o nível ele precisa encostar em um cubo vermelho, no qual vai levar ele para o próximo nível.</p>
+<h3>Quando o jogador encerrar o nível ele precisa encostar em um cubo vermelho, no qual vai levar ele para o próximo nível.</h3>
 
-<h3> O código é feito pela empresa, porém reescrito para fins educacionais</h3>
+<h2>OBS:</h2><h4> O código é feito logicamente por outros programadores, porém reescrito para fins de compreender melhor.</h4>
 
 
