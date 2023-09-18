@@ -135,8 +135,8 @@ O método `Update()` é chamado uma vez por quadro (frame). Ele obtém os inputs
 </p>
 
 <H1> Código de troca de Cena no Unity </H1>
-<p>
 
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -147,13 +147,16 @@ public class LoadGame : MonoBehaviour
      public string ProximaFase;
      void OnTriggerEnter(Collider collider)
      {
-             if(collider.gameObject.tag=="Player")
+             // ao colidir no objeto com tag "next"
+             if(collider.gameObject.tag=="Next")
              {
+                     // ir para a segunda fase
                      SceneManager.LoadScene("fase2");
              }
      }
  }
-</p>
+```
+<p>Quando o jogador encerrar o nível ele precisa encostar em um cubo vermelho, no qual vai levar ele para o próximo nível.</p>
 
 <h3> O código é feito pela empresa, porém reescrito para fins educacionais</h3>
 
