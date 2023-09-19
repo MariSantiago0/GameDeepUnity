@@ -35,6 +35,8 @@
 
 <br><br>
 
+![Vídeo da execução do Jogo] https://youtu.be/t6OyxImiB4E?si=iKUJsiH6u4zdeZ3D
+
 <h2>Requisitos</h2>
 <p>
 Antes de começar, certifique-se de ter os seguintes requisitos instalados:
