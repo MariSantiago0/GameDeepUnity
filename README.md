@@ -218,7 +218,18 @@ public class LoadGame : MonoBehaviour
  </li>
 </ul>
 
+<Br><Br>
+
+## contribuidores
+
+- Mariana Santiago (MariSantiago0)
+
+- Kauã de Castro (KalCastro)
+
+
+
 
 <h2>OBS:</h2><h4> O código é feito logicamente por outros programadores, porém reescrito para fins de melhor compreensão.</h4>
+
 
 
