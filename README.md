@@ -1,5 +1,12 @@
 # GameDeepUnity
 [![Unity](https://img.shields.io/badge/Unity-2022.2.16f1-blue)](https://unity3d.com/get-unity/download/archive)
+
+<p>Músicas escolhidas para a inspiração do jogo:</p>
+<strong>
+Não creio mais em nada - Paulo Sérgio <Br>
+Don't fear the Reaper - Blue Öyster Cult <Br>
+Volta e meia - O terno <Br>
+</strong>
 <br>
 <img src="imgs/chegada.png">
 <h1>Tópicos</h1>
