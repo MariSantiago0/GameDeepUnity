@@ -218,7 +218,7 @@ public class LoadGame : MonoBehaviour
  </li>
 </ul>
 
-<Br><Br>
+<Br>
 
 ## contribuidores
 
@@ -226,7 +226,7 @@ public class LoadGame : MonoBehaviour
 
 - Kauã de Castro (KalCastro)
 
-
+<Br>
 
 
 <h2>OBS:</h2><h4> O código é feito logicamente por outros programadores, porém reescrito para fins de melhor compreensão.</h4>
