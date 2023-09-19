@@ -35,7 +35,9 @@
 
 <br><br>
 
-![Vídeo da execução do Jogo] https://youtu.be/t6OyxImiB4E?si=iKUJsiH6u4zdeZ3D
+<h2>Vídeo do jogo em execução</h2>
+
+ https://youtu.be/t6OyxImiB4E?si=iKUJsiH6u4zdeZ3D
 
 <h2>Requisitos</h2>
 <p>
